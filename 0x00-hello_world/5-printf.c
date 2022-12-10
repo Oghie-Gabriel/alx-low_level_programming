@@ -1,13 +1,19 @@
-#include <stdio.h> // Include the standard input/output library
+#include <stdio.h>
+/**
+ *
+ *  * main - Entry point
+ *
+ *   * Return: Always 0 (Success)
+ *
+ *    */
 
-
-
-int main(void) // Define the main function
+int main(void)
 
 {
 
-	    printf("With proper grammar, but the outcome is a piece of art.\n"); // Use the printf function to print the message, followed by a newline
+		/* declaration of variable my_char too hold my string data */
 
-	        return 0; // Return 0 to indicate that the program ran successfully
+		char my_char[] = "\"Programming is like building a multilingual puzzle";
 
-}
+			puts(my_char);
+				return (0);
