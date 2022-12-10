@@ -1,24 +1,27 @@
 #include <stdio.h>
+
 /**
  *
- *  * main - print the string in the put function
+ *  * main - Entry point
  *
- *   *
+ *   * Return: Always 0 (Success)
  *
- *    * Description: using the main function
- *
- *     * this program prints "Programming is like building a multilingual puzzle
- *
- *      * Return: 0
- *
- *       */
+ *    */
 
 int main(void)
 
 {
 
-		puts("\"Programming is like building a multilingual puzzle");
+		/* declaration of variable my_char too hold my string data */
 
-			return (0);
+
+
+		char my_char[] = "\"Programming is like building a multilingual puzzle";
+
+
+
+			puts(my_char);
+
+				return (0);
 
 }
