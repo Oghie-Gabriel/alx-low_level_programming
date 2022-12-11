@@ -1,18 +1,19 @@
 #include <stdio.h>
+
 /**
- *  * main - Entry point*
+ *  * main - Entry point
  *  * Return: Always 0 (Success)
  *
  */
-
 int main(void)
 
 {
 
-		/* declaration of variable my_char too hold my string data */
+		/* This function prints out text using the printf function */
 
-		char my_char[] = "\"Programming is like building a multilingual puzzle";
+		char my_char[] = "with proper grammar, but the outcome is a piece of art,\n";
 
-		puts(my_char);
+		printf("%s", my_char);
 		return (0);
+
 }
