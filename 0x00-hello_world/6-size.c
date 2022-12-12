@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
+/**
  * main - Entry point
  * Return: Always 0 (Success)
  */
 int main(void)
 {
+                /* This function prints out text using the printf function */
 
 		printf("Size of a char: %lu byte(s)\n", sizeof(char));
 		printf("Size of an int: %lu byte(s)\n", sizeof(int));
