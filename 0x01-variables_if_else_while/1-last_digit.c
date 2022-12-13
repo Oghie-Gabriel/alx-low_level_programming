@@ -7,7 +7,6 @@
  * Return: Always 0 (Success)
 */
 int main(void)
-
 {
 
 		int n; /* randomly generated number */
@@ -25,5 +24,4 @@ int main(void)
 		else if (last_number == 0)
 			printf(" and is 0\n")
 		return (0);
-
 }
