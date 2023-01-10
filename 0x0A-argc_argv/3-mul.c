@@ -1,4 +1,3 @@
-lines (23 sloc)  438 Bytes
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -23,3 +22,4 @@ int main(int argc, char *argv[])
 	result = a * b;
 	printf("%d\n", result);
 	return (0);
+}
